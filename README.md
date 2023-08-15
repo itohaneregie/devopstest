@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Next.js Prisma Starter
 
 This is a simple Next.js template that incorporates [Prisma](https://prisma.io/) as the Object-Relational Mapping (ORM) tool. The following instructions guide you on how to effectively use this template.
@@ -32,3 +33,6 @@ pnpm dev
 ```
 
 Once this command runs successfully, your Next.js Prisma Starter project is up and ready. You might be missing some components (like a database), but you can add them as you go.
+=======
+# devopstest
+>>>>>>> 3f7aaf40d38eb7f3342909d43defc4e036c4dc07
