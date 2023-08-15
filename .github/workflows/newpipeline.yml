@@ -2,9 +2,14 @@ name: Build and Push Docker Image to Docker Hub
 
 on:
   push:
+<<<<<<< HEAD
     branches: [ "main" ]
  
 
+=======
+    branches:  "main" 
+  
+>>>>>>> f775ea1af23b8b83484ff97af3fd1b2bd8e0efc4
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
