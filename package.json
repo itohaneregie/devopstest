@@ -1,0 +1,38 @@
+{
+  "name": "devops-challenge",
+  "repository": "https://github.com/moonpay/devops-challenge.git",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "prisma generate && next dev",
+    "build": "prisma generate && next build",
+    "db:schema:push": "prisma generate && prisma db push",
+    "db:seed": "prisma generate && prisma db push && prisma db seed",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.0.0",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.19",
+    "@types/react-dom": "18.0.11",
+    "@types/react": "18.0.37",
+    "autoprefixer": "10.4.14",
+    "eslint-config-next": "13.4.12",
+    "eslint": "8.45.0",
+    "postcss": "8.4.27",
+    "prisma": "5.0.0",
+    "tailwindcss": "3.3.3",
+    "ts-node": "10.9.1",
+    "turbo": "1.10.12",
+    "typescript": "5.0.4"
+  }
+}
